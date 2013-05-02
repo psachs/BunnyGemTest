@@ -4,8 +4,8 @@
     <list default="true" id="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" name="Default" comment="" />
     <ignored path="briar_rabbit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367516328185" ignored="false" />
-    <file path="/a.dummy" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367528170410" ignored="false" />
+    <file path="/fragment.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367537493310" ignored="false" />
+    <file path="/a.dummy" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367537933133" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/intelligence.vidigami.com/app/models/trained_face.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367517691023" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/client/shared/app/vidigami/client/upload/models/training_photo.coffee" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367530811654" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/client/shared/app/vidigami/client/upload/view_models/training_photo_uploader.coffee" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367530811654" ignored="false" />
@@ -27,7 +27,7 @@
     <file path="$PROJECT_DIR$/../../vidigami/code/intelligence.vidigami.com/spec/controllers/matched_faces_controller_spec.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367524989669" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/intelligence.vidigami.com/spec/libs/intelligence_subscriptions_poller_spec.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525035024" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/app/controllers/training_photos_controller.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525339772" ignored="false" />
-    <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/app/controllers/students_controller.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525339772" ignored="false" />
+    <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/app/controllers/students_controller.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367534522838" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/lib/pubsub/bunny_exchange.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525339772" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/lib/pubsub/intelligence_keys.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525339772" ignored="false" />
     <file path="$PROJECT_DIR$/../../vidigami/code/schools-new.vidigami.com/app/models/photo.rb" changelist="0110d5b0-2e20-4934-b3f5-834ff2ccb0f3" time="1367525339772" ignored="false" />
@@ -60,22 +60,67 @@
     <favorites_list name="briar_rabbit" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.702067">
+    <splitter split-orientation="horizontal" split-proportion="0.5359943">
       <split-first>
         <leaf>
-          <file leaf-file-name="bunny_get_spec.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/tests/bunny_get_spec.rb">
+          <file leaf-file-name="test_poller1.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test_poller1.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="67" selection-start="594" selection-end="618" vertical-scroll-proportion="0.0">
+                <state line="108" column="13" selection-start="2539" selection-end="2539" vertical-scroll-proportion="1.1927711">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bunny_exchange.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bunny_exchange.rb">
+          <file leaf-file-name="carrot_exchange.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/carrot_exchange.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="64" selection-start="934" selection-end="940" vertical-scroll-proportion="0.0">
+                <state line="37" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="-9.727273">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="frame.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/frame.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="54" column="32" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="buffer.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/buffer.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="153" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="protocol.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/protocol.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="45" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="queue.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/queue.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/server.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="100" column="0" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -84,43 +129,7 @@
           <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test_poller1.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_poller1.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="2401" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.14312977">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main_loop.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/bunny-0.9.0.pre10/lib/bunny/main_loop.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="session.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/bunny-0.9.0.pre10/lib/bunny/session.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="353" column="0" selection-start="10630" selection-end="10630" vertical-scroll-proportion="0.0">
+                <state line="9" column="46" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -129,25 +138,7 @@
           <file leaf-file-name="test_poller2.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test_poller2.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="95" column="0" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test_tracker.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/support/test_tracker.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="3" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="0" selection-start="96" selection-end="205" vertical-scroll-proportion="0.0">
+                <state line="107" column="5" selection-start="2439" selection-end="2439" vertical-scroll-proportion="-2.5636363">
                   <folding />
                 </state>
               </provider>
@@ -157,10 +148,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="bunny_put_spec.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="bunny_put_spec.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/tests/bunny_put_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="0" selection-start="677" selection-end="803" vertical-scroll-proportion="1.0968921">
+                <state line="40" column="0" selection-start="677" selection-end="803" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bunny_exchange.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bunny_exchange.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="16" selection-start="686" selection-end="686" vertical-scroll-proportion="0.12295082">
                   <folding />
                 </state>
               </provider>
@@ -178,22 +178,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/support/test_tracker.rb" />
         <option value="$PROJECT_DIR$/spec/support/fake_rails_logger.rb" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/sinatra_app.rb" />
         <option value="$PROJECT_DIR$/rabbit_exchange.rb" />
         <option value="$PROJECT_DIR$/spec/tests/bunny_spec.rb" />
-        <option value="$PROJECT_DIR$/bunny_exchange.rb" />
         <option value="$PROJECT_DIR$/spec/tests/bunny_get_spec.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/scheduler.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/tests/bunny_put_spec.rb" />
         <option value="$PROJECT_DIR$/test_poller.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/carrot_exchange.rb" />
+        <option value="$PROJECT_DIR$/bunny_exchange.rb" />
         <option value="$PROJECT_DIR$/test_poller2.rb" />
         <option value="$PROJECT_DIR$/test_poller1.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -305,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -630,11 +630,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.59816885" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40183112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.2899288" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7100712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51068157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5096643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -703,62 +703,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rabbit_exchange.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amq_exchange.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/timeout.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/singleton.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/tests/bunny_get_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="594" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/tests/bunny_put_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="677" selection-end="803" vertical-scroll-proportion="1.0968921">
+        <state line="40" column="0" selection-start="677" selection-end="803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -777,20 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bunny_exchange.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="64" selection-start="934" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_poller2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/bunny-0.9.0.pre10/lib/bunny/session.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="353" column="0" selection-start="10630" selection-end="10630" vertical-scroll-proportion="0.0">
@@ -805,16 +742,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_poller1.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="2401" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/queue.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.14312977">
+        <state line="18" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/protocol.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/buffer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="46" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/server.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="2417" selection-end="2417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/carrot-1.2.0/lib/carrot/amqp/frame.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="32" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carrot_exchange.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="-9.727273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bunny_exchange.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="686" selection-end="686" vertical-scroll-proportion="0.12295082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_poller2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="5" selection-start="2439" selection-end="2439" vertical-scroll-proportion="-2.5636363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_poller1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="13" selection-start="2539" selection-end="2539" vertical-scroll-proportion="1.1927711">
           <folding />
         </state>
       </provider>

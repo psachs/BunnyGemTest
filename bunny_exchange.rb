@@ -2,7 +2,7 @@ require 'bunny'
 require 'json'
 require 'singleton'
 
-class BunnyExchange
+class RabbitExchange
   include Singleton
   attr_reader :channel, :exchange
 
@@ -29,6 +29,10 @@ class BunnyExchange
     return unless @connection
     @channel = nil; @exchange = nil
     @connection.stop; @connection = nil
+  end
+
+  def available
+    return @channel!=nil
   end
 
   def subscribe(key)

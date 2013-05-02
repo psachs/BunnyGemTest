@@ -6,21 +6,24 @@ require 'rufus/scheduler'
 require 'awesome_print'
 require 'benchmark'
 require 'singleton'
+
 require 'securerandom'
 
 require 'bunny_exchange'
 
 APP_CONFIG={}
 APP_CONFIG['rabbitmq_server_url'] = 'amqp://localhost'
-APP_CONFIG['test_queue_recv'] = 'rabbit_test2'
 APP_CONFIG['test_queue_send'] = 'rabbit_test1'
+APP_CONFIG['test_queue_recv'] = 'rabbit_test2'
+
+
 
 class TestPoller2
   include Singleton
-  attr_reader :channel, :exchange, :is_running, :is_checking
+  attr_reader :channel, :exchange, :is_running, :is_checking, :sleep_time
 
   def initialize
-
+    @sleep_time = "0.2s"
   end
 
   def self.clear_db_connections
@@ -33,12 +36,12 @@ class TestPoller2
     return if @is_running
     @is_running = true
 
-    BunnyExchange.instance.start
-    BunnyExchange.instance.subscribe(APP_CONFIG['test_queue_recv'])
+    RabbitExchange.instance.start
+    RabbitExchange.instance.subscribe(APP_CONFIG['test_queue_recv'])
 
-    unless BunnyExchange.instance.channel
+    unless RabbitExchange.instance.available
       # TODO: handle missing
-      error "ERROR: RabbitMQ not available"
+      warn "ERROR: RabbitMQ not available"
       return
     end
     info "TestPoller: polling exchange: #{APP_CONFIG['rabbitmq_server_url']}"
@@ -46,10 +49,10 @@ class TestPoller2
     @is_running = false
     @is_checking = false
 
-    @recognition_batcher = @scheduler.every '0.1s' do
-      TestPoller2.safely do
-        _handle_message(BunnyExchange.instance.pop(APP_CONFIG['test_queue_recv']))
-      end
+    @recognition_batcher = @scheduler.every @sleep_time do
+      #TestPoller2.safely do
+      _handle_message(RabbitExchange.instance.pop(APP_CONFIG['test_queue_recv']))
+      #end
     end
   end
 
@@ -59,7 +62,7 @@ class TestPoller2
       #ActiveRecord::Base.connection.verify!(0) unless ActiveRecord::Base.connected?
       yield
     rescue => e
-      error e.inspect
+      warn e.inspect
     ensure
       begin
         TestPoller2.clear_db_connections
@@ -71,7 +74,7 @@ class TestPoller2
 
   def _handle_message(params)
     if params
-      info params
+      info "--------RECEIVED-------- #{params}"
     end
   end
 
@@ -91,18 +94,24 @@ end
 
 TestPoller2.instance.start
 
+
 i=1
 while (1) do
-  sleep(0.1)
+  sleep(@sleep_time.to_i)
   puts "alive:#{i}"
   message={}
   message["uuid"] = SecureRandom.uuid.to_s
-  message['ix'] = i
-  puts "send message:#{i}"
-  BunnyExchange.instance.publish(APP_CONFIG['test_queue_send'], message.to_json)
-  if i%1000 == 0
-    sleep(600)
+  message["worker"]="TEST POLLER 1"
+  message['ix'] = i.to_s
+  puts "--------PUBLISHING-------- message:#{i}"
+  begin
+     RabbitExchange.instance.publish(APP_CONFIG['test_queue_send'], message.to_json)
+  rescue Exception => e
+     puts "Exception in Rabbit Exchange: #{e.message} \n#{e.backtrace}"
   end
 
+  if i%100 == 0
+    sleep(60)
+  end
   i+=1
 end

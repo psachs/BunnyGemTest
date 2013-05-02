@@ -12,7 +12,7 @@ gem 'sinatra'
 gem "arel", "~> 3.0.2"
 gem 'puma'
 
-#gem 'carrot'
+gem 'carrot'
 gem "bunny", '~> 0.9.0.pre10'
 #gem 'amqp'
 gem 'rufus-scheduler'

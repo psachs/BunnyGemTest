@@ -13,6 +13,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bourne (v1.4.0, rbenv: 1.9.3-p194) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.1, rbenv: 1.9.3-p194) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bunny (v0.9.0.pre10, rbenv: 1.9.3-p194) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="carrot (v1.2.0, rbenv: 1.9.3-p194) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.1.3, rbenv: 1.9.3-p194) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, rbenv: 1.9.3-p194) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.7, rbenv: 1.9.3-p194) [gem]" level="application" />
