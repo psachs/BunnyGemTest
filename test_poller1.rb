@@ -23,7 +23,7 @@ class TestPoller1
   attr_reader :channel, :exchange, :is_running, :is_checking, :sleep_time
 
   def initialize
-    @sleep_time = "0.2s"
+    @sleep_time = "0.01s"
   end
 
   def self.clear_db_connections
@@ -105,8 +105,5 @@ while (1) do
   message['ix'] = i.to_s
   puts "--------PUBLISHING-------- message:#{i}"
   RabbitExchange.instance.publish(APP_CONFIG['test_queue_send'], message.to_json)
-  if i%100 == 0
-    sleep(180)
-  end
   i+=1
 end

@@ -1,4 +1,3 @@
-ruby '1.9.3', engine: 'ruby', engine_version: '1.9.3'
 
 source 'http://rubygems.org'
 
@@ -13,7 +12,7 @@ gem "arel", "~> 3.0.2"
 gem 'puma'
 
 gem 'carrot'
-gem "bunny", '~> 0.9.0.pre10'
+gem "bunny", '~> 1.0.0'
 #gem 'amqp'
 gem 'rufus-scheduler'
 

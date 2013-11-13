@@ -23,7 +23,7 @@ class TestPoller2
   attr_reader :channel, :exchange, :is_running, :is_checking, :sleep_time
 
   def initialize
-    @sleep_time = "0.2s"
+    @sleep_time = "0.01s"
   end
 
   def self.clear_db_connections
@@ -110,8 +110,5 @@ while (1) do
      puts "Exception in Rabbit Exchange: #{e.message} \n#{e.backtrace}"
   end
 
-  if i%100 == 0
-    sleep(60)
-  end
   i+=1
 end
