@@ -3,6 +3,6 @@ This is a sample bunny project to check high throughput. To run this project you
 Just run:
 
 * gem install bundler
-* bundler install
+* bundle install
 * ruby publisher.rb
 * ruby subscriber.rb
